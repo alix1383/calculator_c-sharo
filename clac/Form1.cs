@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace clac
 {
-    public partial class Form1 : Form
+    public partial class Calculator : Form
     {
         enum Operator
         {
@@ -23,7 +23,7 @@ namespace clac
         private int OldValue;
         private Operator OperatorVar = Operator.Addition;
 
-        public Form1()
+        public Calculator()
         {
             InitializeComponent();
             OutputTextBot.Text = "0";
